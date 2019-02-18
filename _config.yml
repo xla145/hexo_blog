@@ -80,4 +80,4 @@ theme: indigo
 deploy:
   type: git
   repo:
-    github: git@github.com:xla145/xla145.github.io.git,master
+    github: git@github.com:xla145/xula145.github.io.git,master
