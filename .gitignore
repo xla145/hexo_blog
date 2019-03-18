@@ -1,0 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+/.deploy_git/
+/.idea/
+/node_modules/
+/public/
