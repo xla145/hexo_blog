@@ -76,7 +76,7 @@ postMessage:
 cnzz: false
 
 # 百度统计，如要开启，改为你的 key
-baidu_tongji: false
+baidu_tongji: a3fdbeb99d843068f41c172799992980
 
 # 腾讯分析，如要开启，输入站点id
 tajs: false

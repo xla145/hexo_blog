@@ -7,9 +7,9 @@ title: 诗在远方的个人博客
 subtitle: 日积月累
 description:
 keywords: spring Java mysql web开发
-author: xula
-language: zh
-timezone:
+author: xul
+language: zh-CN
+timezone: Asia/shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
