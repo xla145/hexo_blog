@@ -9,7 +9,7 @@ tags:
 在计算机科学中，数据结构（英语：data structure）是计算机中存储、组织数据的方式。数据结构意味着接口或封装：一个数据结构可被视为两个函数之间的接口，或者是由数据类型联合组成的存储内容的访问方法封装。
 # 2. 结构有哪些？
 常见的数据结构主要有8种，引用百度百科的图：
- ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190228100803325.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MTg0OTk3,size_16,color_FFFFFF,t_70)
+ ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190228100803325.png)
 # 3.	一些数据结构在Java中的具体体现？
 1.	List 接口
 List 具体实现类有ArrayList, LinkedList, Vector，下面我们来介绍一下它们的原理，区别和使用方式

@@ -5,7 +5,7 @@ tags:
 - spring
 ---
 
-Spring 中有五种作用域，但是有三种只适用在web环境![在这里插入图片描述](https://img-blog.csdnimg.cn/20190305163713526.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MTg0OTk3,size_16,color_FFFFFF,t_70)
+Spring 中有五种作用域，但是有三种只适用在web环境![在这里插入图片描述](https://img-blog.csdnimg.cn/20190305163713526.png)
 下面我们来介绍一下 singleton 和 prototype
 * Singleton 作用域
 我们先通过idea 创建一个项目，然后创建一个NewCar 类拥有两个方法如下：

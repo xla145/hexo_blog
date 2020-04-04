@@ -10,7 +10,7 @@ tags:
 * 上述结果[[3,7],[23],[2,3,7]]，这个类型Stream<String[]> 使用 stream 操作（filter，sum，distinct ...）和 collectors 都不支持这种类型。如果你想把Stream of Stream转换为值列表，使用 flatMap() 方法 重新生成一个Stream对象，最后可以得到 [3,7,2,3,2,3,7]
 # 2. flatMap如何工作的
 通过下面的图，我们就很容易理解flatmap在java8 中是如何工作的
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190304131022877.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MTg0OTk3,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190304131022877.png)
 使用红色标记的列表和绿色标记的列表，经过flatmap方法后在第二个管道中把把上述两个列表的数据合并成一个列表数据
 # 3. flatmap 使用例子
 ```

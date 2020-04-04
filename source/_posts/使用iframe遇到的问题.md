@@ -6,7 +6,7 @@ tags:
 ---
 # 1：在iframe中使用layer弹框引发的一些问题
 1. 弹框后，出现子窗口高度不够，导致显示内容不全
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190227175949596.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MTg0OTk3,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img.mupaie.com/20190227175949596.png)
 
 使用iframe 代码如下：
 
@@ -41,7 +41,7 @@ tags:
 解释一下，主要是监听窗体调整，获取窗体的高度，减去头部和底部的高度剩下的就是\$content的高度，然后给iframe设置高度，代码中运行了延迟加载，防止函数执行过快。
 
 2. 高度虽然解决了，但是又出现一个问题，当弹窗使用全屏显示的时候，调整窗体宽度，里面内容不会跟着改变，那么问题来了出现这种效果：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190227184346806.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MTg0OTk3,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img.mupaie.com/20190227184346806.png)
 里面的内容被覆盖了，导致这个原因主要是里面iframe和弹窗内容div的宽度没有跟着改变，那么我们怎么解决呢，想到上一节讲了高度设置，那么我们宽度也跟着设置呀。带着这个想法，我试一下修改iframe的宽度
 
 ```
@@ -71,9 +71,9 @@ tags:
     }.
 ```
 尝试了一下果真可以，现在看效果：
-![调整窗体前](https://img-blog.csdnimg.cn/20190227185309289.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MTg0OTk3,size_16,color_FFFFFF,t_70)
+![调整窗体前](https://img.mupaie.com/20190227185309289.png)
 
-![调整窗体后](https://img-blog.csdnimg.cn/20190227185353924.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MTg0OTk3,size_16,color_FFFFFF,t_70)
+![调整窗体后](https://img.mupaie.com/20190227185353924.png)
 这样终于算解决问题了，有一个前端小伙伴告诉我还有一种方式，就是改变窗体宽度的时候，调用一个layer.full(index)，index 是创建弹窗的编号。这种方式好处就是内部自动根据窗体宽度调整弹窗宽度，但是有个问题我怎么去获取那个index呢？这个问题等以后解决吧，先放放。。。
 
 # 2. 手机端解决iframe 中内容不能左右移动的问题

@@ -2,5 +2,10 @@
 /.deploy_git/
 /.idea/
 /node_modules/
-/public/
+#/public/
 /themes/indigo/node_modules/
+/hexo_blog.iml
+/package.json
+/package-lock.json
+/hexo.iml
+/public/

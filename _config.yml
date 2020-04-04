@@ -6,8 +6,8 @@
 title: 诗在远方的个人博客
 subtitle: 日积月累
 description:
-keywords: spring Java mysql web开发
-author: xul
+keywords: spring Java web python 开发
+author: xula
 language: zh-CN
 timezone: Asia/shanghai
 
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: indigo
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
